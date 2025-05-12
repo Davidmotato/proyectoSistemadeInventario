@@ -1,0 +1,267 @@
+.banner-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    background-color: #f9f5eb; /* Beige claro */
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #FFA500; /* Naranja */
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+nav a:hover {
+    background-color: #FFA500; /* Naranja */
+    color: white;
+}
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #FFD700; /* Dorado */
+}
+.negocio {
+    background: #FFF3E0;
+    padding: 15px;
+    margin-top: 10px;
+    border-left: 5px solid #FFA500; /* Naranja */
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    color: #333;
+    margin-top: 20px;
+    border-top: 3px solid #FFD700; /* Dorado */
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.negocio-img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+#contacto {
+    padding: 40px;
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-left: 5px solid #FFD700; /* Dorado */
+}
+
+#contacto label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+
+#contacto input, 
+#contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #FFA500; /* Naranja */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #FFF3E0;
+}
+
+#contacto button {
+    background: #FFA500; /* Naranja */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#contacto button:hover {
+    background: #E69500;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #FFA500;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+.btn:hover {
+    background-color: #E69500;
+}
+
+.menu {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .menu-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    background-color: #ffa500; /* Naranja */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+
+  /* Estilo del Inicio de Sesión */
+
+  form {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    border-left: 5px solid #FFA500;
+  }
+  
+  form h2 {
+    text-align: center;
+    color: #FFA500;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #FFA500;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #FFF3E0;
+    font-size: 16px;
+  }
+  
+  form button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #E69500;
+  }
+  
+
+  /* Estilo para el Registro */
+
+  form {
+    max-width: 450px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    border-left: 5px solid #FFA500;
+  }
+  
+  form h2 {
+    text-align: center;
+    color: #FFA500;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  form input,
+  form select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #FFA500;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #FFF3E0;
+    font-size: 16px;
+  }
+  
+  form button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #E69500;
+  }

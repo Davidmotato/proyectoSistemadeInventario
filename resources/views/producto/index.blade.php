@@ -9,11 +9,12 @@
     
   <nav class="nav-botones">
          <ul class="nav-menu">
+        @can('producto.create')
             
              <li class="nav-item">
                  <a href="{{route('producto.create')}}" class="nav-link btn-agregar">Agregar Producto</a>
              </li>
-
+        @endcan
              <li class="nav-item">
                 <a href="{{ route('pdf.productos' ,request()->query()) }}" target="_blank" class="nav-link btn-generar-pdf">Generar PDF</a>
 
@@ -57,11 +58,11 @@
                <a href="{{route('producto.show',[$producto->id])}}">
                   <img src="img/vista.png" alt="" class="btn-vista">
                </a>
+                   
                <a href="{{route('producto.edit',[$producto->id])}}">
                   <img src="img/editar.png" alt="" class="btn-editar">
                </a>
 
-               
                <a href="{{route('producto.destroy',[$producto->id])}}">
                   
                </a>
@@ -72,7 +73,6 @@
                   {{-- agregar metodo delete --}}
                   @method('DELETE')
                   <input type="image"src="img/eliminar.png" class="btn-eliminar"></input>
- 
                </form>
                
                <script>

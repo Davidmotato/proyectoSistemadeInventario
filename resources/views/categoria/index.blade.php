@@ -16,6 +16,7 @@ Productos
             <li class="nav-item">
                <a href="{{ route('categoria.create') }}" class="nav-link btn-agregar"> Agregar Nuevo Negocio</a>
             </li>
+
         @endcan
         </ul>
     </nav>
@@ -44,6 +45,7 @@ Productos
                     <img src="img/vista.png" alt="" class="btn-vista">
                 </a>
                 
+                    
                 <a href="{{ route('categoria.edit', [$categoria->id])}}">
                     <img src="img/editar.png" alt="" class="btn-editar">
                 </a>
